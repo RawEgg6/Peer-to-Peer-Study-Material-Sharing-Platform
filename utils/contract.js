@@ -4,7 +4,7 @@ import fs from "fs";
 
 dotenv.config();
 
-const CONTRACT_ADDRESS = "0xB581C9264f59BF0289fA76D61B2D0746dCE3C30D";
+const CONTRACT_ADDRESS = "0xb09da8a5B236fE0295A345035287e80bb0008290";
 
 const artifact = JSON.parse(
   fs.readFileSync("./artifacts/contracts/DocumentVerifier.sol/DocumentVerifier.json")
